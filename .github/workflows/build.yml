@@ -15,9 +15,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - context: alpine3.12
+          - context: alpine3.14
             tags: |
-              nightly-alpine3.12
+              nightly-alpine3.14
               nightly-alpine
           - context: bullseye
             tags: |
